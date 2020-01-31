@@ -29,5 +29,13 @@ Important: you can draw only if the canvas is created!
 Example: Examine the input.txt and output.txt files in the appendix to the task.
 
 
+## Description
+
+The task was done in a week.
+First button to load input.txt.
+Second button to load output.txt.
+Third button if you don't like the design, you can change the background image.
+
+
 Created by Gurbanov Ali.
 Please, if you find an error, let me know, I can fix any error. Do not judge strictly, thanks.
