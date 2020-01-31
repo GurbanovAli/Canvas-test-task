@@ -2,7 +2,7 @@
 This Canvas, without Canvas test task for CODEX
 
 
-#task
+# Task
 
 Your task is to write a simple drawing program that executes a sequence of commands from the file Input.txt and produces output.txt.
 Use the next commands:
