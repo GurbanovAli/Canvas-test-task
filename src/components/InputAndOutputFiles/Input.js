@@ -86,7 +86,7 @@ function Input (...rest){
         onChange={handleInputChange}
         disabled={appState.loading} />
       <label htmlFor={inputId}>
-      {loading}  Canvas-Input file  </label>
+      {loading}  Upload Canvas  </label>
       </div>
  )
 }

@@ -10,7 +10,7 @@ import Image from './components/Image';
 const App =()=>(
      <Control>
        <main id='main'>
-          <h1>Canvas for CodeX</ h1>
+          <h1>Canvas for The Codex</ h1>
           <div className='main_block'>
              <div className='button_block'>
                <Input />
