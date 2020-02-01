@@ -1,9 +1,9 @@
 import React from 'react';
-import Download from './components/Download';
+import Download from './components/Download/Download';
 import Control from './components/ControlFile';
 import Input from './components/InputAndOutputFiles/Input';
 import Output from './components/InputAndOutputFiles/Output';
-import Image from './components/Image';
+import Image from './components/Image/Image';
 
 
 

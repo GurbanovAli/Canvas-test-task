@@ -11,7 +11,7 @@ function Output() {
          <div
            className = 'output' >
            { loading }
-           <pre> { getFile } </pre> 
+           <pre> { getFile } </pre>
          </div>
    );
 }

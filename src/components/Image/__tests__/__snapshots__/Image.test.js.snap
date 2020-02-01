@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> spec 1`] = `
+<div>
+   
+  <div>
+    <button
+      class="button download_button"
+      id="image"
+    >
+       Change Background 
+    </button>
+  </div>
+   
+</div>
+`;

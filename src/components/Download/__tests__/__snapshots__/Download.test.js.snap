@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div>
+   
+  <div
+    class="download_button"
+  >
+    <button
+      class="button"
+    >
+      Download canvas
+    </button>
+  </div>
+   
+</div>
+`;
+
+exports[`<Download /> spec 1`] = `
+<div>
+   
+  <div
+    class="download_button"
+  >
+    <button
+      class="button"
+    >
+      Download canvas
+    </button>
+  </div>
+   
+</div>
+`;
+
+exports[`<Download /> spec renders the component 1`] = `
+<div>
+   
+  <div
+    class="download_button"
+  >
+    <button
+      class="button"
+    >
+      Download canvas
+    </button>
+  </div>
+   
+</div>
+`;

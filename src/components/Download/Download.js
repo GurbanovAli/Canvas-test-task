@@ -1,7 +1,7 @@
 import React from 'react';
 import {
    useAppState
-} from './ControlFile';
+} from '../ControlFile';
 
 function Download() {
    const {
