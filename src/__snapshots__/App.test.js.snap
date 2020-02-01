@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> spec renders the component 1`] = `
+<div>
+   
+  <main
+    id="main"
+  >
+    <div
+      id="container"
+    >
+      Canvas
+      <div
+        id="flip"
+      >
+        <div>
+          <div>
+            Make
+          </div>
+        </div>
+        <div>
+          <div>
+            lifeStyle
+          </div>
+        </div>
+        <div>
+          <div>
+            Awesome!
+          </div>
+        </div>
+      </div>
+      for The Codex
+    </div>
+    <div
+      class="main_block"
+    >
+      <div
+        class="button_block"
+      >
+        <div
+          class="button download_button"
+        >
+          <input
+            accept=".txt"
+            class="component"
+            id="file-input"
+            type="file"
+          />
+          <label
+            for="file-input"
+          >
+              Upload Canvas  
+          </label>
+        </div>
+        <div
+          class="download_button"
+        >
+          <button
+            class="button"
+          >
+            Download canvas
+          </button>
+        </div>
+        <div>
+          <button
+            class="button download_button"
+            id="image"
+          >
+             Change Background 
+          </button>
+        </div>
+      </div>
+      <div
+        class="output"
+      >
+        <pre>
+           
+          No file
+           
+        </pre>
+      </div>
+    </div>
+  </main>
+   
+</div>
+`;
+
+exports[`renders learn react link 1`] = `
+<div
+  id="container"
+>
+  Canvas
+  <div
+    id="flip"
+  >
+    <div>
+      <div>
+        Make
+      </div>
+    </div>
+    <div>
+      <div>
+        lifeStyle
+      </div>
+    </div>
+    <div>
+      <div>
+        Awesome!
+      </div>
+    </div>
+  </div>
+  for The Codex
+</div>
+`;
