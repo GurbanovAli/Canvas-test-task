@@ -4,7 +4,7 @@ import App from './App';
 
 jest.mock('./file.worker.js');
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
+test('<App /> spec', () => {
+  const {container} = render(<App />);
   expect(container).toMatchSnapshot();
 });
