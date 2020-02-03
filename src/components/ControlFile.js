@@ -53,25 +53,25 @@ function appReducer(state, action) {
       case appWork.SUCCESS:
          const {
             result, url, getFile
-         } = action.payload;
+         } = action.value;
          return {
             result, url, getFile, loading: false
          };
       case appWork.ERROR:
          return {
-            error: action.payload,
+            error: action.value,
                loading: false
          };
       case appWork.RESET:
          return appState;
       case appWork.LOADING:
          return {
-            loading: action.payload
+            loading: action.value
          };
       case appWork.CHANGE:
          return {
             ...state,
-            progress: action.payload
+            progress: action.value
          };
       default:
          return state;

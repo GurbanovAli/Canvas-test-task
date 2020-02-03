@@ -13,8 +13,8 @@ const App =()=>(
           <div id='container'>
               Canvas
             <div id='flip'>
-              <div><div>Make</div></div>
-              <div><div>lifeStyle</div></div>
+              <div><div>Beautiful!</div></div>
+              <div><div>Wonderful!</div></div>
               <div><div>Awesome!</div></div>
             </div>
               for The Codex

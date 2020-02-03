@@ -2,7 +2,6 @@ import React, { useRef, useEffect, useState } from 'react';
 import { useAppSend, useAppState, appWork } from '../ControlFile';
 import WebWorker from '../../file.worker';
 import throttle from 'lodash.throttle';
-// import WebWorker from "react-webworker"
 
 function GetInput({
   is: Component = 'div',
@@ -15,7 +14,7 @@ const sendDefault = throttle(
   (progress, send) =>
     send({
       type: appWork.CHANGE,
-      payload: progress,
+      value: progress,
     }),
 );
 
@@ -30,19 +29,19 @@ function Input (...rest){
   useEffect(() => {
     const thisWorker = thisRef.current;
     const messageHandler = ({ data }) => {
-      const { error, progress, ...payload } = data;
+      const { error, progress, ...value } = data;
 
       if (!error && !progress) {
         appSend({
           type: appWork.SUCCESS,
-          payload,
+          value,
         });
       } else if (progress) {
         sendProgress(progress, appSend);
       } else {
         appSend({
           type: appWork.ERROR,
-          payload: error,
+          value: error,
         });
       }
     };
@@ -56,7 +55,7 @@ function Input (...rest){
 
   useEffect(() => {
     if (file) {
-      appSend({ type: appWork.LOADING, payload: true });
+      appSend({ type: appWork.LOADING, value: true });
 
       thisRef.current.postMessage([file]);
     }
